@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    padding-top: 135px;
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    font-size: 32px;
+  font-family: 'Merriweather', serif;
+    
+}
+input[type="search"] {
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 16px;
+    width: 327px;
+    position: relative;
+}
+input[type="search"] :hover ~.fa-solid{
+    display: none;
+}
+i.fa-solid.fa-magnifying-glass {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 15px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 37px;
+    font-size: 16px;
+}
+p{
+    padding: 12px;
+}
+nav p:hover{
+    animation: 0.5s;
+    border-radius: 8px;
+    color: white;
+    background-color: #516FD4;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.container {
+    padding: 0 100px;
+    width: 1213px;
+    height: 830px;
+    margin: auto;
+}
+.user-card {
+    display: flex;
+    width: 321px;
+    height: 208px;
+    box-shadow: 2px 2px 4px grey ;
+    z-index: 3;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+.user-card:hover{
+    background-color: aliceblue;
+}
+img.profile-pic {
+    width: 97px;
+    height: 97px;
+    margin: 18px;
+}
+.profile {
+    margin: 36px 0px;
+}
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.about {
+    border: 1px solid #516FD4;
+    color: #516FD4;
+    /* display: flex; */
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: min-content;
+    padding: 0 7px;
+    font-size: 14px;
+}
+.personal {
+    margin-top: 12px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
